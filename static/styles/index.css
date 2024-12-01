@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-image: url("https://cdn3.iconfinder.com/data/icons/prettycons-astrology-vol-1-outline/60/46-Tarot_Cards-zodiac_esoteric_astrology_magic-512.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 70px;
+}
+
+img.main {
+    display: none;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    background-color: rgb(0 0 0 / 50%);
+    box-shadow: 0 1px 6px 0px #000;
+}
+
+.nav_box {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.header_nav {
+    flex-grow: 1;
+}
+
+.header_nav ul {
+    display: flex;
+    gap: 80px;
+}
+
+.header_nav ul li a {
+    border-bottom: 1px dotted #ffd211;
+}
+
+.header_phone a {
+    font-weight: 400;
+    color: #ffd211;
+    font-size: 26px;
+}
+
+.header_phone a img {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.header_box {
+    width: 650px;
+    margin-top: 40px;
+}
+
+.header_name {
+    font-family: 'Good Vibes Pro';
+    font-size: 95px;
+    color: #ffd211;
+}
+
+.header_subname {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_subname h2 {
+    font-weight: 400;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #ffd211;
+}
+
+.header_descr {
+    margin-top: 35px;
+}
+
+.header_list {
+    margin-top: 50px;
+}
+
+.header_list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.header_list ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    padding-left: 35px;
+}
+
+.header_list ul li:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("https://cdn3.iconfinder.com/data/icons/prettycons-astrology-vol-1-outline/60/46-Tarot_Cards-zodiac_esoteric_astrology_magic-512.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
+.header_btn {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.header_btn a {
+    background: rgb(255, 162, 0);
+    background: linear-gradient(0deg, rgba(255, 162, 0, 1) 0%, rgba(255, 210, 17, 1) 100%);
+    color: #210236;
+    border-radius: 40px;
+    padding: 5px 30px 8px 30px;
+    text-shadow: none;
+    font-weight: 400;
+    font-size: 22px;
+    box-shadow: 0 0 14px #ffd211;
+}
+
+.header_btn a img {
+    width: 18px;
+    margin-right: 10px;
+}

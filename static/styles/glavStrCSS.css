@@ -1,0 +1,254 @@
+.font-face {
+    font-family: 'Izuver';
+    src: local('Izuver'),
+        url(/static/font/Izuver.otf) format('otf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+
+
+header {
+    background-color: black;
+    padding: 20px 0;
+    font-family: 'Izuver', sans-serif;
+    font-size: 24px;
+
+
+}
+
+.cap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7a038f;
+    text-decoration: none;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #a70fc3;
+}
+
+
+
+
+
+
+
+
+
+
+.home_module {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('file:///C:/Users/admin/Desktop/Git_project/static/images/карты_таро.jpg');
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding-top: 20px;
+    height: 80vh;
+    font-family: 'Izuver', sans-serif;
+
+}
+
+.home_module_text {
+    padding: 10px;
+    font-size: 30px;
+    color: #a70fc3;
+    margin-top: 20px;
+}
+
+.drop-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.drop-item {
+    margin: 10px;
+    flex: 1;
+    padding: 20px 10px;
+    background: rgba(70, 70, 70, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    color: #a70fc3;
+    min-width: 200px;
+}
+
+.word-item {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.specialists-section {
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    border-top: none;
+    font-family: 'Izuver', sans-serif;
+
+}
+
+.specialists-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.specialists-section {
+    display: flex;
+    background-image: url('https://avatars.mds.yandex.net/i?id=9561183d818c656346c5c9fa8659dea9_l-4569757-images-thumbs&n=13');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container {
+    margin: 10px;
+    flex: 1;
+    padding: 20px 10px;
+    background: rgba(70, 70, 70, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    color: #a70fc3;
+
+}
+
+.specialists-section h3 {
+    text-align: center;
+}
+
+.specialists-section img {
+    display: block;
+    margin: 0 auto;
+}
+
+.specialist-description {
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+
+    background-size: cover;
+    background-position: center;
+    padding: 12px 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background: rgba(70, 70, 70, 0.1);
+
+}
+
+.footer_socials {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #a70fc3;
+
+}
+
+.header_btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.header_btn a {
+    background: linear-gradient(0deg, rgba(132, 0, 255, 0.507) 0%, rgb(132, 0, 255, 243) 100%);
+    color: #210236;
+    border-radius: 40px;
+    padding: 5px 30px;
+    font-weight: 400;
+    font-size: 22px;
+    box-shadow: 0 0 14px #ff06c921;
+}
+
+.header_btn a img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.footer_link {
+    display: flex;
+    gap: 10px;
+}
